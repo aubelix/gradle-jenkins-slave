@@ -2,7 +2,7 @@ FROM java:8u66-jdk
 
 # Gradle
 
-ENV GRADLE_VERSION 4.10.2
+ENV GRADLE_VERSION 4.10.3
 
 RUN \
 cd /usr/bin && curl -sLO https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-all.zip && \
